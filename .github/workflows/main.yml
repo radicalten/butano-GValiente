@@ -12,7 +12,8 @@ jobs:
       uses: actions/checkout@v5
     - name: Compile
       run: |
-        make -f ./examples/profiler/Makefile
+        cd ./examples/profiler
+        make
     - name: Upload
       uses: actions/upload-artifact@v5
       with:
