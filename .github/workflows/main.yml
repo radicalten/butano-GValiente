@@ -19,4 +19,5 @@ jobs:
       with:
         name: GBA-butano
         path: |
-          ./examples/profiler*.gba
+           cd ./examples/profiler
+           *.gba
