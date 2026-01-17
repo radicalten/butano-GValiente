@@ -12,7 +12,7 @@ jobs:
       uses: actions/checkout@v5
     - name: Compile
       run: |
-        make -f Makefile-GBA-butano-9-9-3
+        make -f /template Makefile
     - name: Upload
       uses: actions/upload-artifact@v5
       with:
